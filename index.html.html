@@ -1,0 +1,189 @@
+<html><head><base href="https://websim.guide/"><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>WebSim Guide - Unleash Your Creative Potential</title>
+<style>
+  :root {
+    --bg-color: #121212;
+    --text-color: #e0e0e0;
+    --accent-color: #4CAF50;
+    --secondary-color: #2196F3;
+  }
+  
+  body {
+    font-family: 'Roboto', sans-serif;
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem;
+  }
+  
+  header {
+    text-align: center;
+    padding: 4rem 0;
+  }
+  
+  h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    color: var(--accent-color);
+  }
+  
+  h2 {
+    font-size: 2rem;
+    margin-top: 3rem;
+    color: var(--secondary-color);
+  }
+  
+  p {
+    margin-bottom: 1.5rem;
+  }
+  
+  .cta-button {
+    display: inline-block;
+    background-color: var(--accent-color);
+    color: var(--bg-color);
+    padding: 0.8rem 1.5rem;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+  }
+  
+  .cta-button:hover {
+    background-color: #45a049;
+  }
+  
+  .feature-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 2rem;
+    margin-top: 3rem;
+  }
+  
+  .feature-item {
+    background-color: rgba(255, 255, 255, 0.05);
+    padding: 1.5rem;
+    border-radius: 10px;
+    text-align: center;
+  }
+  
+  .feature-icon {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    color: var(--secondary-color);
+  }
+  
+  footer {
+    text-align: center;
+    padding: 2rem 0;
+    margin-top: 4rem;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+  }
+  
+  @keyframes fade-in {
+    from { opacity: 0; transform: translateY(20px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+  
+  .animate-fade-in {
+    animation: fade-in 1s ease-out forwards;
+    opacity: 0;
+  }
+</style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1 class="animate-fade-in">WebSim Guide</h1>
+      <p class="animate-fade-in">Unleash Your Creative Potential</p>
+      <a href="https://websim.guide/start" class="cta-button animate-fade-in">Get Started</a>
+    </header>
+    
+    <main>
+      <section>
+        <h2 class="animate-fade-in">What is WebSim?</h2>
+        <p class="animate-fade-in">WebSim is an advanced AI-powered web content creation engine that brings your ideas to life. With WebSim, you can collaboratively generate detailed, immersive, and interactive web experiences based on your prompts and imagination.</p>
+      </section>
+      
+      <section>
+        <h2 class="animate-fade-in">How to Use WebSim</h2>
+        <ol>
+          <li class="animate-fade-in">Start with a clear idea or concept for your web project.</li>
+          <li class="animate-fade-in">Describe your vision to WebSim using natural language prompts.</li>
+          <li class="animate-fade-in">Provide any specific parameters or preferences you have in mind.</li>
+          <li class="animate-fade-in">Let WebSim interpret your input and generate rich, immersive HTML content.</li>
+          <li class="animate-fade-in">Review the output and provide feedback or additional instructions to refine the result.</li>
+          <li class="animate-fade-in">Iterate and collaborate with WebSim until you achieve your desired outcome.</li>
+        </ol>
+      </section>
+      
+      <section>
+        <h2 class="animate-fade-in">Key Features</h2>
+        <div class="feature-grid">
+          <div class="feature-item animate-fade-in">
+            <div class="feature-icon">🎨</div>
+            <h3>Creative Flexibility</h3>
+            <p>From simple websites to complex web apps and games, WebSim can handle it all.</p>
+          </div>
+          <div class="feature-item animate-fade-in">
+            <div class="feature-icon">🤖</div>
+            <h3>AI-Powered</h3>
+            <p>Leverages advanced AI to understand and interpret your creative vision.</p>
+          </div>
+          <div class="feature-item animate-fade-in">
+            <div class="feature-icon">🔧</div>
+            <h3>Full Stack Capability</h3>
+            <p>Generates HTML, CSS, and JavaScript code for complete web experiences.</p>
+          </div>
+          <div class="feature-item animate-fade-in">
+            <div class="feature-icon">🔄</div>
+            <h3>Iterative Process</h3>
+            <p>Collaborate with WebSim to refine and perfect your web creation.</p>
+          </div>
+        </div>
+      </section>
+      
+      <section>
+        <h2 class="animate-fade-in">Tips for Success</h2>
+        <ul>
+          <li class="animate-fade-in">Be as specific as possible in your initial prompt.</li>
+          <li class="animate-fade-in">Don't hesitate to ask for clarification or modifications.</li>
+          <li class="animate-fade-in">Experiment with different ideas and approaches.</li>
+          <li class="animate-fade-in">Take advantage of WebSim's ability to generate SVG graphics and CSS animations.</li>
+          <li class="animate-fade-in">Explore the use of JavaScript libraries through CDNs for enhanced functionality.</li>
+        </ul>
+      </section>
+    </main>
+    
+    <footer>
+      <p>&copy; 2023 WebSim Guide. All rights reserved.</p>
+    </footer>
+  </div>
+
+<script>
+document.addEventListener('DOMContentLoaded', (event) => {
+  const animatedElements = document.querySelectorAll('.animate-fade-in');
+  
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        entry.target.style.animationDelay = `${entry.target.dataset.delay || 0}ms`;
+        entry.target.style.animationPlayState = 'running';
+        observer.unobserve(entry.target);
+      }
+    });
+  }, {threshold: 0.1});
+  
+  animatedElements.forEach((el, index) => {
+    el.style.animationPlayState = 'paused';
+    el.dataset.delay = index * 100;
+    observer.observe(el);
+  });
+});
+</script>
+</body></html>
